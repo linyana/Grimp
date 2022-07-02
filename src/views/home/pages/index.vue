@@ -71,7 +71,7 @@ img.banner {
   font-size: 70px;
   color: rgb(68, 67, 67);
   font-weight: 700;
-  text-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+  text-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 
 .title2 {
@@ -81,7 +81,7 @@ img.banner {
   font-size: 50px;
   color: rgb(68, 67, 67);
   font-weight: 700;
-  text-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+  text-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 
 .title_button {
@@ -96,7 +96,7 @@ img.banner {
   color: white;
   background-color: rgb(90, 121, 224);
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
-  text-shadow: 0 0 5px rgb(255, 255, 255, 0.3);
+  text-shadow: 0 0 5px rgb(255, 255, 255, 0.2);
 }
 
 .content {

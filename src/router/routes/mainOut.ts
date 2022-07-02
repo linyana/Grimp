@@ -56,6 +56,51 @@ export const mainOutRoutes: AppRouteModule[] = [
           ignoreAuth: true,
         },
       },
+      {
+        path: 'area',
+        name: 'area',
+        meta: {
+          title: t('routes.home.area'),
+          ignoreAuth: true,
+        },
+        component: () => import('/@/views/home/pages/Area.vue'),
+      },
+      {
+        path: 'dataquery',
+        name: 'dataquery',
+        meta: {
+          title: t('routes.home.dataquery'),
+          ignoreAuth: true,
+        },
+        component: () => import('/@/views/home/pages/DataQuery.vue'),
+      },
+      {
+        path: 'feedback',
+        name: 'feedback',
+        meta: {
+          title: t('routes.home.feedback'),
+          ignoreAuth: true,
+        },
+        component: () => import('/@/views/home/pages/FeedBack.vue'),
+      },
+      {
+        path: 'information',
+        name: 'information',
+        meta: {
+          title: t('routes.home.information'),
+          ignoreAuth: true,
+        },
+        component: () => import('/@/views/home/pages/Information.vue'),
+      },
+      {
+        path: 'map',
+        name: 'map',
+        meta: {
+          title: t('routes.home.map'),
+          ignoreAuth: true,
+        },
+        component: () => import('/@/views/home/pages/Map.vue'),
+      },
     ],
   },
 ];
