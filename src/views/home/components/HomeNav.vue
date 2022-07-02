@@ -3,16 +3,16 @@
         <div class="logo"></div>
         <ul>
             <li>
-                <a href>主页</a>
+                <a href="index">主页</a>
             </li>
             <li>
-                <a href>地图展示</a>
+                <a href="#">地图展示</a>
             </li>
             <li>
-                <a href>管理</a>
+                <a href="#">管理</a>
             </li>
             <li>
-                <a href>注册</a>
+                <a href="../login">注册</a>
             </li>
         </ul>
     </div>
@@ -104,7 +104,7 @@ ul li {
 
 ul li:hover {
   background-color: rgb(223, 223, 223);
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 ul li a {
