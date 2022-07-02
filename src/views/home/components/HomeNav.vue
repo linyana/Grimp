@@ -95,7 +95,16 @@ ul {
 }
 
 ul li {
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
   list-style: none;
+  transition: all 0.3s;
+}
+
+ul li:hover {
+  background-color: rgb(223, 223, 223);
+  transform: scale(1.1)
 }
 
 ul li a {
