@@ -1,5 +1,5 @@
 <template>
-    <Nav />
+    <HomeNav />
     <div id="area">
         <div class="area_card">
             <div class="area_card_left area_img img1"></div>
@@ -38,10 +38,10 @@
 </template>
 
 <script>
-import Nav from '../components/Nav.vue';
+import HomeNav from '../components/HomeNav.vue';
 
 export default {
-  components: { Nav },
+  components: { HomeNav },
 };
 </script>
 

@@ -2,7 +2,7 @@
     <div id="nav">
         <div class="nav_title">草原资源智能化管理平台</div>
         <div class="menu">
-            <router-link to="./map">
+            <router-link to="./index">
                 <div class="menu_box">
                     <span class="menu_box_img_span menu_box_img_span1"></span>
                     <span class="menu_box_text_span">首页</span>

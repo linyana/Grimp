@@ -1,5 +1,5 @@
 <template>
-    <Nav />
+    <HomeNav />
     <div id="feedback">
         <br />
         <div class="feedback_title">请填写您的使用体验和建议，我们会认真听取并及时反馈</div>
@@ -18,10 +18,10 @@
 </template>
 
 <script>
-import Nav from '../components/Nav.vue';
+import HomeNav from '../components/HomeNav.vue';
 
 export default {
-  components: { Nav },
+  components: { HomeNav },
 };
 </script>
 

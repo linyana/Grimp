@@ -39,15 +39,6 @@ export const mainOutRoutes: AppRouteModule[] = [
         component: () => import('../../views/home/pages/index.vue'),
       },
       {
-        path: 'feedback',
-        name: 'Feedback',
-        component: () => import('/@/views/home/feedback/index.vue'),
-        meta: {
-          title: t('routes.home.feedback'),
-          ignoreAuth: true,
-        },
-      },
-      {
         path: '/home/:path(.*)*',
         name: '404',
         component: () => import('/@/views/home/exception/index.vue'),

@@ -1,5 +1,5 @@
 <template>
-    <Nav />
+    <HomeNav />
     <div id="data_query">
         <br />
         <div class="echarts echarts2"></div>
@@ -8,11 +8,11 @@
 </template>
 
 <script>
-import Nav from '../components/Nav.vue';
+import HomeNav from '../components/HomeNav.vue';
 import { onMounted } from 'vue';
 import * as echarts from 'echarts';
 export default {
-  components: { Nav },
+  components: { HomeNav },
   name: 'data_page',
   setup() {
     onMounted(() => {

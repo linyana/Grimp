@@ -3,16 +3,22 @@
         <div class="logo"></div>
         <ul>
             <li>
-                <a href="index">主页</a>
+                <a href="./index">主页</a>
             </li>
             <li>
-                <a href="#">地图展示</a>
+                <a href="./map">地图</a>
             </li>
             <li>
-                <a href="#">管理</a>
+                <a href="./dataquery">数据展示</a>
             </li>
             <li>
-                <a href="../login">注册</a>
+                <a href="./area">地域风光</a>
+            </li>
+            <li>
+                <a href="./information">信息发布</a>
+            </li>
+            <li>
+                <a href="./feedback">反馈</a>
             </li>
         </ul>
     </div>
@@ -43,7 +49,7 @@ ul {
   position: absolute;
   left: calc(50% - 500px);
   top: 0;
-  width: 700px;
+  width: 1000px;
   height: 100%;
   display: flex;
   justify-content: space-around;
@@ -52,14 +58,14 @@ ul {
 ul li {
   cursor: pointer;
   text-align: center;
-  width: 150px;
+  min-width: 100px;
+  padding: 0 30px;
   list-style: none;
   transition: all 0.3s;
 }
 
 ul li:hover {
-  background-color: rgb(223, 223, 223);
-  transform: scale(1.1);
+  background-color: rgb(238, 238, 238);
 }
 
 ul li a {
@@ -67,5 +73,4 @@ ul li a {
   color: rgb(65, 63, 63);
   text-shadow: 0 0 10px rgba(43, 42, 42, 0.3);
 }
-
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <Nav />
+    <HomeNav />
     <div id="information">
         <br />
         <div class="line">
@@ -30,10 +30,10 @@
 </template>
 
 <script>
-import Nav from '../components/Nav.vue'
+import HomeNav from '../components/HomeNav.vue'
 
 export default {
-    components: {Nav}
+    components: {HomeNav}
 };
 </script>
 
