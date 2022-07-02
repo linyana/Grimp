@@ -20,6 +20,12 @@ import { registerThirdComp } from '/@/settings/registerThirdComp';
 import { useSso } from '/@/hooks/web/useSso';
 import { registerPackages } from '/@/utils/monorepo/registerPackages';
 
+
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+
+
+
 // 在本地开发中引入的,以提高浏览器响应速度
 if (import.meta.env.DEV) {
   import('ant-design-vue/dist/antd.less');
@@ -27,6 +33,8 @@ if (import.meta.env.DEV) {
 async function bootstrap() {
   // 创建应用实例
   const app = createApp(App);
+
+  app.use(ElementPlus);
 
   // 多语言配置,异步情况:语言文件可以从服务器端获得
   await setupI18n(app);

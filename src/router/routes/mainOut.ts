@@ -21,6 +21,15 @@ export const mainOutRoutes: AppRouteModule[] = [
     },
     children: [
       {
+        path: 'w',
+        name: 'w',
+        meta: {
+          title: t('routes.home.w'),
+          ignoreAuth: true,
+        },
+        component: () => import('../../views/components/Nav.vue'),
+      },
+      {
         path: 'index',
         name: 'Home',
         meta: {
