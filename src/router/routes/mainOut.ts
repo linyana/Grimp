@@ -27,7 +27,7 @@ export const mainOutRoutes: AppRouteModule[] = [
           title: t('routes.home.index'),
           ignoreAuth: true,
         },
-        component: () => import('/@/views/home/index/index.vue'),
+        component: () => import('../../views/home/index/index.vue'),
       },
       {
         path: 'feedback',

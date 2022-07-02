@@ -2,12 +2,14 @@
   <HomeNav/>
 </template>
 
-<script lang="ts">
-import HomeNav from '../pages/HomeNav.vue'
+<script>
+import HomeNav from '../components/HomeNav.vue'
 
-export default{
-  components: {HomeNav},
+export default {
+  components: {HomeNav}
 }
 </script>
 
-<style lang="less" scoped></style>
+<style>
+  
+</style>
