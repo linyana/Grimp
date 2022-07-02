@@ -109,8 +109,8 @@ ul li:hover {
 
 ul li a {
   text-decoration: none;
-  color: black;
-  text-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+  color: rgb(65, 63, 63);
+  text-shadow: 0 0 10px rgba(43, 42, 42, 0.3);
 }
 
 img.banner {
