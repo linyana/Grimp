@@ -4,7 +4,9 @@
         <img src="../../../../public/resource/images/home1.jpg" alt class="banner" />
         <div class="title">Grimp</div>
         <div class="title2">草原资源智能化管理平台</div>
-        <div class="title_button">点击查看</div>
+        <a href='../login'>
+            <div class="title_button">点击查看</div>
+        </a>
     </div>
     <div class="content">
         <div class="card">
@@ -62,6 +64,7 @@ img.banner {
 
 .banner {
   position: relative;
+  min-width: 1400px;
 }
 
 .title {

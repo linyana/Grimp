@@ -2,16 +2,42 @@
     <HomeNav />
     <div id="data_query">
         <br />
-        <div class="title">资源专项调查</div>
-        <div class="echarts echarts2"></div>
-        <div class="title">基础信息管理</div>
-        <div class="echarts echarts1"></div>
-        <div class="title">草原资源评价</div>
-        <div class="echarts echarts3"></div>
-        <div class="title">确权承包管理</div>
-        <div class="echarts echarts4"></div>
-        <div class="title">基本草原划定专题</div>
-        <div class="echarts echarts5"></div>
+        <div class="card">
+            <div class="left">
+                <div class="title">基础信息管理</div>
+                <div class="echarts echarts1"></div>
+            </div>
+            <div class="right">
+                <div class="title">资源专项调查</div>
+                <div class="echarts echarts2"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="left">
+                <div class="title">草原资源评价</div>
+                <div class="echarts echarts3"></div>
+            </div>
+            <div class="right">
+                <div class="title">确权承包管理</div>
+                <div class="echarts echarts4"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="left">
+                <div class="title">基本草原划定专题</div>
+                <div class="echarts echarts5"></div>
+            </div>
+            <div></div>
+        </div>
+        <div class="title">专题</div>
+        <div class="card">
+            <img src="/resource/images/map1.png" alt />
+            <img src="/resource/images/map2.png" alt />
+        </div>
+        <div class="card">
+            <img src="/resource/images/map3.png" alt />
+            <img src="/resource/images/map4.png" alt />
+        </div>
     </div>
 </template>
 
@@ -381,7 +407,7 @@ export default {
 
 <style scoped>
 #data_query {
-  width: 800px;
+  width: 100%;
   margin: auto;
 }
 
@@ -396,5 +422,19 @@ export default {
   font-size: 50px;
   font-weight: 700;
   text-align: center;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card > div {
+  width: 46%;
+}
+
+.card > img {
+  width: 40%;
 }
 </style>

@@ -47,7 +47,7 @@ export default {};
 
 ul {
   position: absolute;
-  left: calc(50% - 500px);
+  left: 450px;
   top: 0;
   width: 1000px;
   height: 100%;
